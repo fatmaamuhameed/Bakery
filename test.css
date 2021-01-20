@@ -1,0 +1,11 @@
+img{
+    display: inline-block;
+    width: 40%;
+}
+
+div{
+    background-color: violet;
+    width: 40%;
+    display: inline-block;
+  
+}

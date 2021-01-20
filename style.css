@@ -1,0 +1,307 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header{
+    text-align: center;
+    background-image: url(images/drew-coffman-1872.jpg);
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+
+}
+.header-info{
+    margin-top: 100px;
+
+}
+h1{
+    color: white;
+    font-size: 76px;
+    font-family: "Alegreya";
+  
+}
+
+.header p{
+    font-size: 24px;
+    color: #FFFFFFEB;
+    font-family: "Alegreya Sans";
+    padding: 15px;
+}
+
+.header .btn{
+    font-size: 16px;
+    font-family: "Alegreya Sans";
+    padding: 15px 28px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+.header .btn1{
+    background-color:#8e7754 ;
+}
+.header .btn2{
+    background-color: transparent;
+    border: solid white 2px;
+}
+
+.who{
+    width: 100%;  
+    margin-top: 50px;
+}
+
+.who-content{
+    width: 90%;
+    margin: auto;
+    padding: 25px;
+ 
+}
+.who-photo{
+    width: 50%;
+    float: left;
+}
+
+.who-photo img{
+    width: 90%;
+}
+
+.who .who-info{
+    width: 50%;  
+    padding: 25px 25px;
+    float: left;
+  
+}
+.who-info p,ul,li{
+    font-family: "Alegreya Sans";
+    font-size: 17px;
+    color: #686868;
+   
+}
+
+.who-info h2{
+    font-family:"Alegreya" ;
+    color: #303030;
+    font-size: 32px;
+    padding-bottom: 25px;
+    margin-bottom: 40px;
+}
+.clr{
+    clear: both;
+}
+
+.location{
+    background-color: #eee;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.location-content{
+    width: 90%;
+    margin: auto;
+    padding: 50px;
+}
+.location-photo{
+    width: 50%;
+    float: left;
+}
+
+.location-photo img{
+    width: 100%;
+ 
+}
+
+.location-info{
+    width: 50%;
+    float: left;
+}
+
+.location-info h2{
+    font-family:"Alegreya" ;
+    color: #303030;
+    font-size: 32px;
+    margin-top: 150px;
+    margin-bottom: 40px;
+
+}
+.location-info p{
+    font-family: "Alegreya Sans";
+    padding-bottom: 100px;
+    padding-right: 50px;
+    font-size: 17px;
+    color: #686868;
+}
+.baking{
+ 
+    margin: auto;
+    width: 90%;
+}
+.baking-title{
+    width: 50%;
+    margin: 70px auto;
+    text-align: center;
+}
+.baking-title h2{
+    font-size: 30px;
+    font-family: "Alegreya";
+    color: #303030;
+    margin-bottom: 10px;
+}
+.baking-title p{
+    font-size: 17px;
+    color: #888;
+}
+.baking-info{
+    /* width: 33.33%; */
+    /* background-color: crimson; */
+    width: 25%;
+    text-align: center;
+    padding: 20px;
+    float: left;
+}
+/* .baking-info .inner{
+    /* background-color: chocolate; } */
+
+.baking-info img{
+    width: 100%;    
+}   
+.baking-info h3{
+    font-family: "Alegreya";
+    color: #303030;
+    font-size: 22px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.baking-info p{
+    font-family: "Alegreya Sans";
+    font-size: 17px;
+    color: #686868;
+    padding: 10px 20px;
+
+}
+.information{
+    background-color: #eee;
+    margin-top: 100px;
+ 
+}
+
+.information-info{
+    width: 40%;
+    padding-left: 50px;
+    padding-right: 40px;
+    margin-left: 35px;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    float: left;
+}
+
+.information-info h2{
+    font-family:"Alegreya" ;
+    color: #303030;
+    font-size: 32px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.information-info p,ul,li{
+    font-family: "Alegreya Sans";
+    font-size: 17px;
+    color: #686868;
+    padding: 15px 10px;
+}
+
+.information-map{
+    width: 40%;
+    float: left;    
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.footer{
+    background-color: #403d38;
+
+}
+.contact{
+    margin-top: 50px;
+    width: 25%;
+    float: left;
+}
+.contact h4{
+    font-family:"Alegreya" ;
+    font-size: 18px;
+    color: white;    
+}
+.contact1 h4{
+    padding-left: 35px;
+}
+
+.contact ul,li,p{
+    color: #969696;
+    font-size: 16px;
+    font-family: "Alegreya Sans";
+}
+.contact1 p{
+    padding: 50px 30px;
+}
+.contact2{
+    background-image: url(images/contact-details-map.png);
+    background-size: 60% 60%;
+    background-repeat: no-repeat;
+}
+.brd{
+    width: 250px;
+    height: 2px;
+    background-color: rgba(53, 50, 50, 0.918)
+}
+
+.end{
+    background-color: #353330;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+
+.end-img{
+    width: 100%;
+}
+.end p{
+    font-size: 15px;
+    font-family: "Alegreya Sans";
+    color: #777777;
+    text-align: center;
+    margin-top: 30px;
+}
+
+@media screen and (max-width:1200px) and (min-width:992px){
+    .baking-info{
+
+        width: 33.333%;
+
+    }
+
+}
+
+@media screen and (max-width:991px) and (min-width:768px){
+    .baking-info{
+
+        width: 50%;
+
+    }
+
+}
+
+@media screen and (max-width:767px) and (min-width:600px){
+    .baking-info{
+
+        width: 50%;
+
+    }
+
+}
+
+@media screen and (max-width:599px) {
+    .baking-info{
+
+        width: 100%;
+
+    }
+
+}
